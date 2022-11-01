@@ -1,7 +1,6 @@
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse 
-from logic.logic import get_country, get_capital
 
 
 class handler(BaseHTTPRequestHandler):
